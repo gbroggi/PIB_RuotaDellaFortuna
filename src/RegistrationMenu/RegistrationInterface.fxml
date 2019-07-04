@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="RegistrationMenuGFX" prefHeight="427.0" prefWidth="500" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegistrationMenu.Controller">
+   <children>
+      <Button fx:id="okRegistrationButton" layoutX="171.0" layoutY="337.0" mnemonicParsing="false" onAction="#AddUser" prefHeight="31.0" prefWidth="108.0" text="Registrati" AnchorPane.bottomAnchor="132.0" AnchorPane.leftAnchor="171.0" AnchorPane.rightAnchor="171.0" AnchorPane.topAnchor="338.8" />
+      <TextField fx:id="TFNome" layoutX="101.0" layoutY="70.0" prefHeight="31.0" prefWidth="286.0" promptText="Nome" AnchorPane.bottomAnchor="399.0" AnchorPane.leftAnchor="101.0" AnchorPane.rightAnchor="63.0" AnchorPane.topAnchor="70.0" />
+      <TextField fx:id="TFCognome" layoutX="100.0" layoutY="126.0" prefHeight="31.0" prefWidth="280.0" promptText="Cognome" AnchorPane.bottomAnchor="343.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="126.0" />
+      <TextField fx:id="TFUsername" layoutX="100.0" layoutY="174.0" prefHeight="31.0" prefWidth="280.0" promptText="Username" AnchorPane.bottomAnchor="295.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="174.0" />
+      <PasswordField fx:id="PBPassword" layoutX="100.0" layoutY="219.0" prefHeight="26.0" prefWidth="280.0" promptText="Password" AnchorPane.bottomAnchor="255.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="219.0" />
+      <TextField fx:id="TFEmail" layoutX="100.0" layoutY="270.0" prefHeight="26.0" prefWidth="188.0" promptText="Email" />
+      <Label fx:id="lblAt" layoutX="288.0" layoutY="268.0" prefHeight="29.0" prefWidth="18.0" text="\@" />
+      <ComboBox fx:id="CBDominioMail" layoutX="305.0" layoutY="271.0" prefHeight="30.0" prefWidth="158.0" promptText="Dominio" AnchorPane.bottomAnchor="198.0" AnchorPane.leftAnchor="305.0" AnchorPane.rightAnchor="37.0" AnchorPane.topAnchor="271.0" />
+   </children>
+</AnchorPane>
